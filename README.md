@@ -1,4 +1,4 @@
-# ZK Drop
+# Write a ZKDrop Step by Step
 
 ### 目标
 
@@ -28,11 +28,11 @@
 
 ### 流程
 
-1. 编写和编译电路 
+1. 编写和编译电路 ([compile circuits](https://docs.circom.io/getting-started/compiling-circuits/))
 
 `circom circuits/circuit.circom --sym --wasm --r1cs -o ./build`
 
-2. 可信初始化，生成proving key和validation key
+2. 可信初始化，生成proving key和validation key ([trusted setup](https://docs.circom.io/getting-started/proving-circuits/))
 
 `snarkjs plonk setup build/circuit.r1cs build/powersOfTau28_hez_final_16.ptau build/circuit_final.zkey`
 
