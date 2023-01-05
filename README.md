@@ -32,31 +32,31 @@
 
 `circom circuits/circuit.circom --sym --wasm --r1cs -o ./build`
 
-1. 可信初始化，生成proving key和validation key
+2. 可信初始化，生成proving key和validation key
 
 `snarkjs plonk setup build/circuit.r1cs build/powersOfTau28_hez_final_16.ptau build/circuit_final.zkey`
 
-1. 通过电路生成链上验证的智能合约 MerkVerifier.sol
+3. 通过电路生成链上验证的智能合约 MerkVerifier.sol
 
 `snarkjs zkey export solidityverifier build/circuit_final.zkey contracts/compiled/MerkVerifier.sol`
 
-1. 部署智能合约：NFT合约、空投合约、verifier合约
+4. 部署智能合约：NFT合约、空投合约、verifier合约
 
 `npx hardhat run ./scripts/4_deployContracts.ts --network localhost`
 
-1. 将一部分NFT转给空投合约
+5. 将一部分NFT转给空投合约
 
 `npx hardhat run ./scripts/5_mint721.ts --network localhost`
 
-1. 提交白名单，更新MerkleTree
+6. 提交白名单，更新MerkleTree
 
 `npx hardhat run ./scripts/6_collectCommitments.ts --network localhost`
 
-1. 客户端生成证明
+7. 客户端生成证明
 
 `npx hardhat run ./scripts/7_GenerateProofCallData.ts --network localhost`
 
-1. 线上验证，领取空投
+8. 线上验证，领取空投
 
 `npx hardhat run ./scripts/8_collect721.ts --network localhost`
 
