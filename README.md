@@ -8,9 +8,9 @@
 ### 开发ZK APP，有哪些技术栈可以选择？
 
 - circom   [Start Here](https://docs.circom.io/)
-- snarky.js  [zkapps for mina](https://zkappsformina.com/)   [how to](https://docs.minaprotocol.com/zkapps/how-to-write-a-zkapp)
-- Aleo   [Leo - Aleo guide](https://developer.aleo.org/getting_started)   [awesome aleo](https://github.com/howardwu/awesome-aleo)
-- Noir  [awesome Noir](https://github.com/noir-lang/awesome-noir)   [Noir guide](https://docs.aztec.network/developers/noir)
+- snarky.js  [zkapps for mina](https://zkappsformina.com/)  / [how to](https://docs.minaprotocol.com/zkapps/how-to-write-a-zkapp)
+- Aleo   [Leo - Aleo guide](https://developer.aleo.org/getting_started)  / [awesome aleo](https://github.com/howardwu/awesome-aleo)
+- Noir  [awesome Noir](https://github.com/noir-lang/awesome-noir)  / [Noir guide](https://docs.aztec.network/developers/noir)
 - Halo2, libsnark … …
 
 ### 选择circom的利弊权衡
@@ -62,13 +62,14 @@
 
 ### 生成证明与验证的过程
 
-![                                  生成证明的过程](pics/process_of_proving.png)
+生成证明的过程:
 
-                                  生成证明的过程
+![生成证明的过程](pics/process_of_proving.png)
 
-![                                     验证的过程](pics/process_of_validating.png)
+验证的过程:
 
-                                     验证的过程
+![验证的过程](pics/process_of_validating.png)
+
 
 ### zkapp on gitcoin
 
