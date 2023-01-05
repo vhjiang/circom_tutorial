@@ -7,7 +7,7 @@
 
 ### 开发ZK APP，有哪些技术栈可以选择？
 
-- circom   [Start Here](https://docs.circom.io/)
+- circom   [Start Here](https://docs.circom.io/) / [awesome circom](https://github.com/arnaucube/awesome-circom)
 - snarky.js  [zkapps for mina](https://zkappsformina.com/)  / [how to](https://docs.minaprotocol.com/zkapps/how-to-write-a-zkapp)
 - Aleo   [Leo - Aleo guide](https://developer.aleo.org/getting_started)  / [awesome aleo](https://github.com/howardwu/awesome-aleo)
 - Noir  [awesome Noir](https://github.com/noir-lang/awesome-noir)  / [Noir guide](https://docs.aztec.network/developers/noir)
