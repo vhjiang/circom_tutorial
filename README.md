@@ -1,9 +1,13 @@
 # Write a ZKDrop Step by Step
 
+
 ### 目标
+
+这是一次受 @oceanheart_cai 邀请给 @aoraki_labs 的内部分享
 
 - 本次将开发一个隐私空投的应用zkdrop，通过使用zk的方式保护接收空投者的隐私
 - 使用circom技术栈，从0到1开发zkapp，讲解背后的开发和部署流程
+- 分享2022年底zkapp有哪些应用（gitcoin，hackthons）
 
 ### 开发ZK APP，有哪些技术栈可以选择？
 
